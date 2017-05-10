@@ -1,0 +1,1112 @@
+﻿Log file open, 04/28/17 14:43:28
+LogInit:Display: Running engine for game: Projecto3Dcars
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1639231293) SRandInit(-1639231293).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.100868
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.28-13.43.30:453][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.28-13.43.30:453][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.28-13.43.30:468][  0]LogInit: Computer: DESKTOP-ADB3IOJ
+[2017.04.28-13.43.30:468][  0]LogInit: User: nelso
+[2017.04.28-13.43.30:469][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.28-13.43.30:469][  0]LogInit: High frequency timer resolution =2.249999 MHz
+[2017.04.28-13.43.30:469][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.04.28-13.43.30:469][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.28-13.43.30:469][  0]LogMemory: Process Physical Memory: 263.38 MB used, 263.38 MB peak
+[2017.04.28-13.43.30:469][  0]LogMemory: Process Virtual Memory: 262.47 MB used, 262.47 MB peak
+[2017.04.28-13.43.30:469][  0]LogMemory: Physical Memory: 5172.57 MB used,  2915.54 MB free, 8088.11 MB total
+[2017.04.28-13.43.30:469][  0]LogMemory: Virtual Memory: 645.45 MB used,  2915.54 MB free, 134217728.00 MB total
+[2017.04.28-13.43.30:598][  0]LogTextLocalizationManager: No translations for ('pt-PT') exist, falling back to 'en' for localization and internationalization data.
+[2017.04.28-13.43.34:851][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.28-13.43.35:769][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2017.04.28-13.43.35:769][  0]LogD3D11RHI:       4065/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.04.28-13.43.35:778][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2017.04.28-13.43.35:778][  0]LogD3D11RHI:       128/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.04.28-13.43.35:780][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.28-13.43.35:780][  0]LogD3D11RHI:       0/0/4044 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.28-13.43.35:780][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.28-13.43.35:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.28-13.43.35:786][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2017.04.28-13.43.35:786][  0]LogWindows: EnumDisplayDevices:
+[2017.04.28-13.43.35:786][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2017.04.28-13.43.35:786][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.28-13.43.35:786][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2017.04.28-13.43.35:787][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.04.28-13.43.35:787][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2017.04.28-13.43.35:787][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.04.28-13.43.35:787][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.04.28-13.43.35:787][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.28-13.43.36:551][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.28-13.43.46:586][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.04.28-13.43.46:587][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Intermediate/Shaders/WorkingDirectory/13136/).
+[2017.04.28-13.43.46:587][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/nelso/AppData/Local/Temp/UnrealShaderWorkingDir/9A5C5F144D178CB27ECC26AC1A85A52B/'.
+[2017.04.28-13.43.46:587][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.28-13.43.50:548][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.28-13.43.50:646][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.04.28-13.43.50:731][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.04.28-13.43.50:817][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.04.28-13.43.50:916][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.04.28-13.43.50:997][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.28-13.43.51:079][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.28-13.43.51:157][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.28-13.43.51:223][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.28-13.43.51:355][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.28-13.43.51:436][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.28-13.43.51:520][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.28-13.43.51:598][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.28-13.43.51:676][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.28-13.43.51:746][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.28-13.43.51:882][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.28-13.43.51:882][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.28-13.43.51:932][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.28-13.43.52:065][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.28-13.43.52:111][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.28-13.43.52:179][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.04.28-13.43.52:246][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.28-13.43.52:313][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.28-13.43.52:382][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.28-13.43.52:382][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.28-13.43.52:974][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache: Loaded boot cache 0.45s 50MB C:/Users/nelso/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/nelso/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.28-13.43.53:422][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.28-13.43.53:458][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.28-13.43.53:470][  0]LogDerivedDataCache: Using Local data cache path C:/Users/nelso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.28-13.43.53:482][  0]LogSlate: Using Freetype 2.6.0
+[2017.04.28-13.43.53:482][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.28-13.43.53:482][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.28-13.43.55:700][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.28-13.43.55:702][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.28-13.43.56:053][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.04.28-13.43.56:110][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.04.28-13.43.56:172][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.04.28-13.43.56:172][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.04.28-13.43.56:172][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.28-13.43.57:050][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: projecto3dcars, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2483648698
+[2017.04.28-13.43.57:105][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.04.28-13.43.57:154][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.017216 seconds
+[2017.04.28-13.43.57:161][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.04.28-13.43.57:161][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.04.28-13.43.57:161][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.28-13.43.57:252][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.28-13.44.16:154][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.04.28-13.44.16:213][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.28-13.44.17:273][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.04.28-13.44.18:022][  0]SourceControl: Info Source control is disabled
+[2017.04.28-13.44.18:023][  0]SourceControl: Info Source control is disabled
+[2017.04.28-13.44.18:085][  0]SourceControl: Info Source control is disabled
+[2017.04.28-13.44.18:162][  0]SourceControl: Info Source control is disabled
+[2017.04.28-13.44.20:480][  0]LogEngine: Initializing Engine...
+[2017.04.28-13.44.20:480][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.04.28-13.44.21:072][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.04.28-13.44.21:080][  0]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-13.44.21:095][  0]LogInit: FAudioDevice initialized.
+[2017.04.28-13.44.21:138][  0]LogDerivedDataCache: Saved boot cache 0.04s 50MB C:/Users/nelso/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.04.28-13.44.21:150][  0]LogInit: Texture streaming: Enabled
+[2017.04.28-13.44.21:294][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.04.28-13.44.21:412][  0]LogInit: Transaction tracking system initialized
+[2017.04.28-13.44.21:876][  0]BlueprintLog: New page: Editor Load
+[2017.04.28-13.44.23:279][  0]LocalizationService: Info Localization service is disabled
+[2017.04.28-13.44.24:482][  0]LogConsoleResponse:Display: 
+[2017.04.28-13.44.24:914][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.04.28-13.44.24:914][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.28-13.44.25:312][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/' took 0.02s
+[2017.04.28-13.44.26:695][  0]SourceControl: Info Source control is disabled
+[2017.04.28-13.44.26:695][  0]Cmd: MAP LOAD FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.28-13.44.26:696][  0]LightingResults: New page: Lighting Build
+[2017.04.28-13.44.26:756][  0]MapCheck: New page: Map Check
+[2017.04.28-13.44.26:756][  0]LightingResults: New page: Lighting Build
+[2017.04.28-13.44.28:003][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-13.44.28:100][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.28-13.44.28:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.28-13.44.28:149][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.46ms to complete.
+[2017.04.28-13.44.28:149][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 1.454
+[2017.04.28-13.44.28:351][  0]LogCollectionManager: Loaded 0 collections in 0.001773 seconds
+[2017.04.28-13.44.28:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Collections/' took 0.01s
+[2017.04.28-13.44.28:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Developers/nelso/Collections/' took 0.01s
+[2017.04.28-13.44.28:442][  0]LogFileCache: Scanning file cache for directory 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Collections/' took 0.01s
+[2017.04.28-13.44.28:442][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.04.28-13.44.28:453][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2247 classes and 456 folders.
+[2017.04.28-13.44.28:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.28-13.44.28:456][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.28-13.44.28:538][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.28-13.44.28:626][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.04.28-13.44.28:680][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.04.28-13.44.28:824][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.28-13.44.28:833][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.28-13.44.28:919][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.28-13.44.28:919][  0]LogLoad: (Engine Initialization) Total time: 61.25 seconds
+[2017.04.28-13.44.28:919][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.60 seconds
+[2017.04.28-13.44.28:919][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.28-13.44.28:919][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.28-13.44.29:258][  0]LogOcInput: OculusInput pre-init called
+[2017.04.28-13.44.29:259][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.04.28-13.44.29:259][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.04.28-13.44.29:259][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.04.28-13.44.29:281][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.28-13.44.29:301][  0]LogSlate: Took 0.018585 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.28-13.44.29:320][  0]LogSlate: Took 0.015270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.04.28-13.44.29:329][  0]LogSlate: Took 0.001266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.04.28-13.44.29:485][  0]LogRenderer: Reallocating scene render targets to support 936x456 NumSamples 1 (Frame:2).
+[2017.04.28-13.44.29:552][  0]LogSlate: Took 0.011174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.28-13.44.29:634][  1]LogAssetRegistry: Asset discovery search completed in 32.5513 seconds
+[2017.04.28-13.44.29:634][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000023 seconds (found 0 objects)
+[2017.04.28-13.44.29:634][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.04.28-13.44.30:293][  3]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.28-13.44.31:969][  8]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.04.28-13.44.32:563][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.04.28-13.44.33:431][  8]LogSlate: Took 0.000918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.04.28-13.44.33:780][  9]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.04.28-14.06.45:341][755]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-14.06.45:374][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-14.06.45:380][755]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 4:06:45 PM)
+[2017.04.28-14.06.45:382][755]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-14.06.45:524][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.141636s)
+[2017.04.28-14.06.45:529][755]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-14.06.45:530][755]LogPlayLevel: PIE: World Init took: (0.005882s)
+[2017.04.28-14.06.45:532][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.150633s)
+[2017.04.28-14.06.45:680][755]LogInit: XAudio2 using 'EPSON PJ (Áudio Intel(R) para Ecrãs)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.28-14.06.45:723][755]LogInit: FAudioDevice initialized.
+[2017.04.28-14.06.45:932][755]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-14.06.45:970][755]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.04.28-15.06.45
+[2017.04.28-14.06.45:972][755]LogWorld: Bringing up level for play took: 0.020446
+[2017.04.28-14.06.46:125][755]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0034 seconds. Added 11 classes and 0 folders.
+[2017.04.28-14.06.46:155][755]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.647
+[2017.04.28-14.06.46:291][755]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:525).
+[2017.04.28-14.08.09:508][249]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.04.28-14.08.23:272][662]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.04.28-14.08.54:804][608]LogBlueprintUserMessages: [myPlayerController_C_0] 2
+[2017.04.28-14.17.33:909][773]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{66c84dbf-9bdf-4b41-8a79-cd62606d10d7} was removed. Shutting down audio device.
+[2017.04.28-14.21.24:750][253]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-14.21.24:760][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-14.21.24:761][253]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 4:21:24 PM)
+[2017.04.28-14.21.24:761][253]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-14.21.24:807][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046664s)
+[2017.04.28-14.21.24:808][253]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-14.21.24:809][253]LogPlayLevel: PIE: World Init took: (0.001519s)
+[2017.04.28-14.21.24:809][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.048628s)
+[2017.04.28-14.21.24:827][253]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-14.21.24:841][253]LogInit: FAudioDevice initialized.
+[2017.04.28-14.21.24:885][253]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-14.21.24:895][253]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.04.28-15.21.24
+[2017.04.28-14.21.24:896][253]LogWorld: Bringing up level for play took: 0.005636
+[2017.04.28-14.21.24:907][253]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.399
+[2017.04.28-14.21.30:736][750]MapCheck: New page: Map Check
+[2017.04.28-14.21.30:875][750]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.28-14.21.30:882][750]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.28-14.21.31:339][750]LightingResults: New page: Lighting Build - Apr 28, 2017, 4:21:31 PM
+[2017.04.28-14.21.31:761][750]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.28-14.21.31:889][750]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.28-14.21.32:010][750]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.28-14.21.34:748][750]LogSwarmInterface:Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2017.04.28-14.21.35:078][750]LogSwarmInterface:Error: System.Net.Sockets.SocketException (0x80004005): Nenhuma ligação pôde ser feita porque o computador de destino
+as recusou ativamente 127.0.0.1:8008
+
+Server stack trace: 
+   em System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   em System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   em System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   em System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   em System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   em System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   em System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   em System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   em System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   em NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   em NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2017.04.28-14.21.40:214][750]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.28-14.21.40:214][750]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13136
+[2017.04.28-14.21.45:087][750]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.28-14.21.45:087][750]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.28-14.21.45:087][750]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.28-14.21.45:087][750]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.28-14.21.45:087][750]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.28-14.21.45:882][750]LogEditorBuildUtils: Build time 0:15
+[2017.04.28-14.21.45:955][750]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RedGrid, compiling. 
+[2017.04.28-14.21.45:989][750]LogTemp:Display: Added material ShaderMap 0x00000244C9D88480 with Material 0x00000244C3767100 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:023][750]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer RedGrid, GameThreadShaderMap 0x00000244C9D88480
+[2017.04.28-14.21.46:025][750]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer RedGrid, compiling. 
+[2017.04.28-14.21.46:026][750]LogTemp:Display: Added material ShaderMap 0x00000244F64BE780 with Material 0x00000244C3767A00 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:034][750]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer RedGrid, GameThreadShaderMap 0x00000244F64BE780
+[2017.04.28-14.21.46:174][751]LogTemp:Display: Added shader map 0x00000244C9D88480 from material 0x00000244AAB45600
+[2017.04.28-14.21.46:186][751]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer BlackGrid, linking to other GameThreadShaderMap 0x00000244C9D88480
+[2017.04.28-14.21.46:188][751]LogTemp:Display: Added shader map 0x00000244F64BE780 from material 0x00000244AAB45900
+[2017.04.28-14.21.46:189][751]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer BlackGrid, linking to other GameThreadShaderMap 0x00000244F64BE780
+[2017.04.28-14.21.46:238][752]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SolidRed, compiling. 
+[2017.04.28-14.21.46:238][752]LogTemp:Display: Added material ShaderMap 0x00000244CB87C800 with Material 0x00000244AAB46200 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:241][752]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer SolidRed, GameThreadShaderMap 0x00000244CB87C800
+[2017.04.28-14.21.46:244][752]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SolidRed, compiling. 
+[2017.04.28-14.21.46:252][752]LogTemp:Display: Added material ShaderMap 0x00000244AA982E80 with Material 0x00000244AAB44700 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:259][752]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer SolidRed, GameThreadShaderMap 0x00000244AA982E80
+[2017.04.28-14.21.46:305][753]LogTemp:Display: Added shader map 0x00000244CB87C800 from material 0x0000024497E1B100
+[2017.04.28-14.21.46:305][753]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer SolidOrange, linking to other GameThreadShaderMap 0x00000244CB87C800
+[2017.04.28-14.21.46:307][753]LogTemp:Display: Added shader map 0x00000244AA982E80 from material 0x0000024497E1B700
+[2017.04.28-14.21.46:307][753]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer SolidOrange, linking to other GameThreadShaderMap 0x00000244AA982E80
+[2017.04.28-14.21.46:310][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling. 
+[2017.04.28-14.21.46:319][753]LogTemp:Display: Added material ShaderMap 0x00000244AAD49600 with Material 0x0000024497E1AB00 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:323][753]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:326][753]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, compiling. 
+[2017.04.28-14.21.46:327][753]LogTemp:Display: Added material ShaderMap 0x00000244C42CE080 with Material 0x0000024497E18A00 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:338][753]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13, GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:374][754]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x0000024497E18100
+[2017.04.28-14.21.46:374][754]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:376][754]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x0000024497E18400
+[2017.04.28-14.21.46:376][754]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:390][754]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x0000024497E19300
+[2017.04.28-14.21.46:390][754]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:392][754]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x0000024497E19C00
+[2017.04.28-14.21.46:392][754]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:441][755]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244AA9BB700
+[2017.04.28-14.21.46:441][755]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:443][755]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244AA9BA200
+[2017.04.28-14.21.46:443][755]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:455][755]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244AA9B8400
+[2017.04.28-14.21.46:455][755]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:458][755]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244AA9B8100
+[2017.04.28-14.21.46:458][755]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:492][756]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244AA9BA500
+[2017.04.28-14.21.46:492][756]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:494][756]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1ADBD00
+[2017.04.28-14.21.46:494][756]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:505][756]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1ADB700
+[2017.04.28-14.21.46:505][756]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:507][756]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1ADB400
+[2017.04.28-14.21.46:508][756]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:537][757]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1ADAB00
+[2017.04.28-14.21.46:537][757]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:540][757]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1ADB100
+[2017.04.28-14.21.46:540][757]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:572][758]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1AD9600
+[2017.04.28-14.21.46:572][758]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:574][758]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1AD8700
+[2017.04.28-14.21.46:574][758]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:620][759]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1AD8100
+[2017.04.28-14.21.46:620][759]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:622][759]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1AD8A00
+[2017.04.28-14.21.46:622][759]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:643][760]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1AD9C00
+[2017.04.28-14.21.46:643][760]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:655][760]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1ADBA00
+[2017.04.28-14.21.46:655][760]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:692][761]LogTemp:Display: Added shader map 0x00000244AAD49600 from material 0x00000244C1ADA800
+[2017.04.28-14.21.46:692][761]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, linking to other GameThreadShaderMap 0x00000244AAD49600
+[2017.04.28-14.21.46:704][761]LogTemp:Display: Added shader map 0x00000244C42CE080 from material 0x00000244C1AD8400
+[2017.04.28-14.21.46:704][761]LogTemp:Display: Found existing compiling shader for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25, linking to other GameThreadShaderMap 0x00000244C42CE080
+[2017.04.28-14.21.46:737][762]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.04.28-14.21.46:738][762]LogTemp:Display: Added material ShaderMap 0x00000244C42CCF00 with Material 0x00000244C1AD8D00 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:741][762]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_1, GameThreadShaderMap 0x00000244C42CCF00
+[2017.04.28-14.21.46:743][762]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2017.04.28-14.21.46:754][762]LogTemp:Display: Added material ShaderMap 0x00000244C3F62E80 with Material 0x00000244C1AD9300 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:757][762]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer MaterialInstanceDynamic_1, GameThreadShaderMap 0x00000244C3F62E80
+[2017.04.28-14.21.46:803][763]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2017.04.28-14.21.46:805][763]LogTemp:Display: Added material ShaderMap 0x00000244C3F60F00 with Material 0x00000244CF38A500 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:808][763]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer CubeMaterial, GameThreadShaderMap 0x00000244C3F60F00
+[2017.04.28-14.21.46:812][763]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer CubeMaterial, compiling. 
+[2017.04.28-14.21.46:820][763]LogTemp:Display: Added material ShaderMap 0x00000244C3F63C80 with Material 0x00000244CF389900 to ShaderMapsBeingCompiled
+[2017.04.28-14.21.46:824][763]LogTemp:Display: Kicking off shader compilation for FLightmassMaterialRenderer CubeMaterial, GameThreadShaderMap 0x00000244C3F63C80
+[2017.04.28-14.21.51:031][765]LogTemp:Display: Finished compile of shader map 0x00000244F64BE780
+[2017.04.28-14.21.51:032][765]LogTemp:Display: Shader map FLightmassMaterialRenderer RedGrid complete, GameThreadShaderMap 0x00000244F64BE780, marking material FLightmassMaterialRenderer RedGrid as finished
+[2017.04.28-14.21.51:032][765]LogTemp:Display: Marking material as finished 0x00000244C3767A00
+[2017.04.28-14.21.51:033][765]LogTemp:Display: Shader map FLightmassMaterialRenderer RedGrid complete, GameThreadShaderMap 0x00000244F64BE780, marking material FLightmassMaterialRenderer BlackGrid as finished
+[2017.04.28-14.21.51:033][765]LogTemp:Display: Marking material as finished 0x00000244AAB45900
+[2017.04.28-14.21.51:036][765]LogTemp:Display: Finished compile of shader map 0x00000244C9D88480
+[2017.04.28-14.21.51:036][765]LogTemp:Display: Shader map FLightmassMaterialRenderer RedGrid complete, GameThreadShaderMap 0x00000244C9D88480, marking material FLightmassMaterialRenderer RedGrid as finished
+[2017.04.28-14.21.51:036][765]LogTemp:Display: Marking material as finished 0x00000244C3767100
+[2017.04.28-14.21.51:037][765]LogTemp:Display: Shader map FLightmassMaterialRenderer RedGrid complete, GameThreadShaderMap 0x00000244C9D88480, marking material FLightmassMaterialRenderer BlackGrid as finished
+[2017.04.28-14.21.51:037][765]LogTemp:Display: Marking material as finished 0x00000244AAB45600
+[2017.04.28-14.21.51:039][765]LogTemp:Display: Finished compile of shader map 0x00000244CB87C800
+[2017.04.28-14.21.51:039][765]LogTemp:Display: Shader map FLightmassMaterialRenderer SolidRed complete, GameThreadShaderMap 0x00000244CB87C800, marking material FLightmassMaterialRenderer SolidRed as finished
+[2017.04.28-14.21.51:039][765]LogTemp:Display: Marking material as finished 0x00000244AAB46200
+[2017.04.28-14.21.51:040][765]LogTemp:Display: Shader map FLightmassMaterialRenderer SolidRed complete, GameThreadShaderMap 0x00000244CB87C800, marking material FLightmassMaterialRenderer SolidOrange as finished
+[2017.04.28-14.21.51:040][765]LogTemp:Display: Marking material as finished 0x0000024497E1B100
+[2017.04.28-14.21.51:049][765]LogTemp:Display: Finished compile of shader map 0x00000244C3F60F00
+[2017.04.28-14.21.51:049][765]LogTemp:Display: Shader map FLightmassMaterialRenderer CubeMaterial complete, GameThreadShaderMap 0x00000244C3F60F00, marking material FLightmassMaterialRenderer CubeMaterial as finished
+[2017.04.28-14.21.51:049][765]LogTemp:Display: Marking material as finished 0x00000244CF38A500
+[2017.04.28-14.21.51:057][765]LogTemp:Display: Finished compile of shader map 0x00000244C3F63C80
+[2017.04.28-14.21.51:057][765]LogTemp:Display: Shader map FLightmassMaterialRenderer CubeMaterial complete, GameThreadShaderMap 0x00000244C3F63C80, marking material FLightmassMaterialRenderer CubeMaterial as finished
+[2017.04.28-14.21.51:057][765]LogTemp:Display: Marking material as finished 0x00000244CF389900
+[2017.04.28-14.21.51:069][765]LogTemp:Display: Finished compile of shader map 0x00000244AA982E80
+[2017.04.28-14.21.51:069][765]LogTemp:Display: Shader map FLightmassMaterialRenderer SolidRed complete, GameThreadShaderMap 0x00000244AA982E80, marking material FLightmassMaterialRenderer SolidRed as finished
+[2017.04.28-14.21.51:069][765]LogTemp:Display: Marking material as finished 0x00000244AAB44700
+[2017.04.28-14.21.51:070][765]LogTemp:Display: Shader map FLightmassMaterialRenderer SolidRed complete, GameThreadShaderMap 0x00000244AA982E80, marking material FLightmassMaterialRenderer SolidOrange as finished
+[2017.04.28-14.21.51:070][765]LogTemp:Display: Marking material as finished 0x0000024497E1B700
+[2017.04.28-14.21.51:072][765]LogTemp:Display: Finished compile of shader map 0x00000244AAD49600
+[2017.04.28-14.21.51:072][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 as finished
+[2017.04.28-14.21.51:072][765]LogTemp:Display: Marking material as finished 0x0000024497E1AB00
+[2017.04.28-14.21.51:073][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15 as finished
+[2017.04.28-14.21.51:073][765]LogTemp:Display: Marking material as finished 0x0000024497E18100
+[2017.04.28-14.21.51:082][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16 as finished
+[2017.04.28-14.21.51:082][765]LogTemp:Display: Marking material as finished 0x0000024497E19300
+[2017.04.28-14.21.51:083][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17 as finished
+[2017.04.28-14.21.51:083][765]LogTemp:Display: Marking material as finished 0x00000244AA9BB700
+[2017.04.28-14.21.51:084][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18 as finished
+[2017.04.28-14.21.51:084][765]LogTemp:Display: Marking material as finished 0x00000244AA9B8400
+[2017.04.28-14.21.51:085][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19 as finished
+[2017.04.28-14.21.51:085][765]LogTemp:Display: Marking material as finished 0x00000244AA9BA500
+[2017.04.28-14.21.51:086][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20 as finished
+[2017.04.28-14.21.51:086][765]LogTemp:Display: Marking material as finished 0x00000244C1ADB700
+[2017.04.28-14.21.51:087][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21 as finished
+[2017.04.28-14.21.51:087][765]LogTemp:Display: Marking material as finished 0x00000244C1ADAB00
+[2017.04.28-14.21.51:088][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22 as finished
+[2017.04.28-14.21.51:088][765]LogTemp:Display: Marking material as finished 0x00000244C1AD9600
+[2017.04.28-14.21.51:089][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23 as finished
+[2017.04.28-14.21.51:089][765]LogTemp:Display: Marking material as finished 0x00000244C1AD8100
+[2017.04.28-14.21.51:089][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24 as finished
+[2017.04.28-14.21.51:089][765]LogTemp:Display: Marking material as finished 0x00000244C1AD9C00
+[2017.04.28-14.21.51:090][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244AAD49600, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25 as finished
+[2017.04.28-14.21.51:090][765]LogTemp:Display: Marking material as finished 0x00000244C1ADA800
+[2017.04.28-14.21.51:102][765]LogTemp:Display: Finished compile of shader map 0x00000244C42CE080
+[2017.04.28-14.21.51:102][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 as finished
+[2017.04.28-14.21.51:102][765]LogTemp:Display: Marking material as finished 0x0000024497E18A00
+[2017.04.28-14.21.51:103][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_15 as finished
+[2017.04.28-14.21.51:103][765]LogTemp:Display: Marking material as finished 0x0000024497E18400
+[2017.04.28-14.21.51:105][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_16 as finished
+[2017.04.28-14.21.51:105][765]LogTemp:Display: Marking material as finished 0x0000024497E19C00
+[2017.04.28-14.21.51:105][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_17 as finished
+[2017.04.28-14.21.51:105][765]LogTemp:Display: Marking material as finished 0x00000244AA9BA200
+[2017.04.28-14.21.51:106][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_18 as finished
+[2017.04.28-14.21.51:106][765]LogTemp:Display: Marking material as finished 0x00000244AA9B8100
+[2017.04.28-14.21.51:115][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_19 as finished
+[2017.04.28-14.21.51:115][765]LogTemp:Display: Marking material as finished 0x00000244C1ADBD00
+[2017.04.28-14.21.51:117][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_20 as finished
+[2017.04.28-14.21.51:117][765]LogTemp:Display: Marking material as finished 0x00000244C1ADB400
+[2017.04.28-14.21.51:118][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_21 as finished
+[2017.04.28-14.21.51:118][765]LogTemp:Display: Marking material as finished 0x00000244C1ADB100
+[2017.04.28-14.21.51:119][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_22 as finished
+[2017.04.28-14.21.51:119][765]LogTemp:Display: Marking material as finished 0x00000244C1AD8700
+[2017.04.28-14.21.51:120][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_23 as finished
+[2017.04.28-14.21.51:120][765]LogTemp:Display: Marking material as finished 0x00000244C1AD8A00
+[2017.04.28-14.21.51:121][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_24 as finished
+[2017.04.28-14.21.51:121][765]LogTemp:Display: Marking material as finished 0x00000244C1ADBA00
+[2017.04.28-14.21.51:121][765]LogTemp:Display: Shader map FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_13 complete, GameThreadShaderMap 0x00000244C42CE080, marking material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_25 as finished
+[2017.04.28-14.21.51:121][765]LogTemp:Display: Marking material as finished 0x00000244C1AD8400
+[2017.04.28-14.21.51:123][765]LogTemp:Display: Finished compile of shader map 0x00000244C42CCF00
+[2017.04.28-14.21.51:123][765]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x00000244C42CCF00, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_1 as finished
+[2017.04.28-14.21.51:123][765]LogTemp:Display: Marking material as finished 0x00000244C1AD8D00
+[2017.04.28-14.21.51:134][765]LogTemp:Display: Finished compile of shader map 0x00000244C3F62E80
+[2017.04.28-14.21.51:134][765]LogTemp:Display: Shader map FLightmassMaterialRenderer MaterialInstanceDynamic_1 complete, GameThreadShaderMap 0x00000244C3F62E80, marking material FLightmassMaterialRenderer MaterialInstanceDynamic_1 as finished
+[2017.04.28-14.21.51:134][765]LogTemp:Display: Marking material as finished 0x00000244C1AD9300
+[2017.04.28-14.21.55:602][786]LogSavePackage: Save=586.39ms
+[2017.04.28-14.21.55:602][786]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_Auto164B4C0F04B98B0CA5C2047AFA1CC4C2F.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto1.umap'
+[2017.04.28-14.21.55:617][786]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto1.umap
+[2017.04.28-14.21.55:626][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.743
+[2017.04.28-14.21.55:626][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.743
+[2017.04.28-14.22.50:696][881]Job is a success!
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 2048X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 2048X2048) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 2048X2048) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 512X256) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 512X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 512X512) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 256X128) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 256X256) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 256X256) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 64X32) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 64X64) - 117 MB total VRAM
+[2017.04.28-14.23.00:952][882]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 64X64) - 117 MB total VRAM
+[2017.04.28-14.23.01:154][882]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.01:295][882]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 1024X512) - 117 MB total VRAM
+[2017.04.28-14.23.01:295][882]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 512X128) - 117 MB total VRAM
+[2017.04.28-14.23.01:295][882]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.01:295][882]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X1024) - 117 MB total VRAM
+[2017.04.28-14.23.01:391][882]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32) - 117 MB total VRAM
+[2017.04.28-14.23.01:391][882]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 128X128) - 117 MB total VRAM
+[2017.04.28-14.23.01:842][882]Lightmass on DESKTOP-ADB3IOJ: 1:06 min total, 831 ms importing, 504 ms setup, 8.04 sec photons, 56.7 sec processing, 0 ms extra exporting [141/141 mappings]. Threads: 3:47 min total, 2:14 min processing.
+[2017.04.28-14.23.01:903][882]LogStaticLightingSystem: Illumination: 1:30 min (8.83 sec encoding lightmaps, 440 ms encoding shadowmaps)
+[2017.04.28-14.23.01:903][882]LogStaticLightingSystem: Lightmap texture memory:  24.8 MB (14.2 MB streaming, 10.7 MB non-streaming), 18 textures
+[2017.04.28-14.23.01:903][882]LogStaticLightingSystem: Shadowmap texture memory: 4.1 MB (2.8 MB streaming, 1.3 MB non-streaming), 7 textures
+[2017.04.28-14.23.02:121][882]DumpUnbuiltLightIteractions
+[2017.04.28-14.23.02:121][882]Lights with unbuilt interactions: 0
+[2017.04.28-14.23.02:121][882]
+[2017.04.28-14.23.02:121][882]Primitives with unbuilt interactions: 0
+[2017.04.28-14.23.02:181][883]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.28-14.23.02:181][883]MapCheck: New page: VehicleAdvExampleMap - Apr 28, 2017, 4:23:02 PM
+[2017.04.28-14.23.02:557][883]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 376.116ms to complete.
+[2017.04.28-14.26.18:187][277]BlueprintLog: New page: Compile VehicleAdvHud
+[2017.04.28-14.26.19:082][310]LogSavePackage: Save=40.82ms
+[2017.04.28-14.26.19:082][310]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvHud8D5A4D494E85300DE9AAE0BCADC1C98A.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset'
+[2017.04.28-14.26.19:093][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset
+[2017.04.28-14.27.04:413][708]LogSavePackage: Save=569.29ms
+[2017.04.28-14.27.04:413][708]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap261035404701DEC4CBFE399E5C74D3B5.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-14.27.04:482][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-14.27.04:527][708]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.04.28-14.27.05:446][708]LogSavePackage: Save=867.43ms
+[2017.04.28-14.27.05:446][708]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData4400ED354C43E65C75AEBDADD9285A36.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-14.27.05:453][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-14.28.36:851][470]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.04.28-14.28.37:927][477]LogSavePackage: Save=167.54ms
+[2017.04.28-14.28.37:927][477]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleBlueprintB77FA4BC444CAA7548B64CB861DC37D9.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.04.28-14.28.37:930][477]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.04.28-14.29.46:790][670]LogEditorTransaction: Undo Move Node
+[2017.04.28-14.30.12:249][ 93]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.04.28-14.30.13:347][103]LogSavePackage: Save=146.38ms
+[2017.04.28-14.30.13:347][103]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleBlueprint91D2408843B921D2D3FE12B0F72C2AD1.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.04.28-14.30.13:350][103]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.04.28-14.31.32:003][959]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_3.WidgetTree.CanvasPanel_0
+[2017.04.28-14.31.32:003][959]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.28-14.31.32:003][959]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_2.WidgetTree.CanvasPanel_0
+[2017.04.28-14.31.32:016][959]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Border /Engine/UMG/Editor/Transient.GameHud).  Import failed...
+[2017.04.28-14.31.32:016][959]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.04.28-14.32.03:914][727]LogSlate: Took 0.048455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_6.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_5.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_4.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_3.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_2.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_7.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_8.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_9.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:HUD_C_10.WidgetTree.CanvasPanel_0
+[2017.04.28-14.34.04:309][578]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3) from referencer (Border /Engine/UMG/Editor/Transient.LapRecord).  Import failed...
+[2017.04.28-14.34.04:309][578]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_3''
+[2017.04.28-14.34.35:188][264]BlueprintLog: New page: Compile HUD
+[2017.04.28-14.34.35:930][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.04.28-14.34.36:002][304]LogSavePackage: Save=64.87ms
+[2017.04.28-14.34.36:002][304]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/HUDD09A4A114EF4D9DCE115479457BBC53A.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset'
+[2017.04.28-14.34.36:005][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset
+[2017.04.28-14.34.37:277][391]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-14.34.37:294][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-14.34.37:295][391]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 4:34:37 PM)
+[2017.04.28-14.34.37:295][391]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-14.34.37:378][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083562s)
+[2017.04.28-14.34.37:379][391]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-14.34.37:380][391]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2017.04.28-14.34.37:380][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.085687s)
+[2017.04.28-14.34.37:405][391]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-14.34.37:422][391]LogInit: FAudioDevice initialized.
+[2017.04.28-14.34.37:477][391]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-14.34.37:486][391]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.04.28-15.34.37
+[2017.04.28-14.34.37:487][391]LogWorld: Bringing up level for play took: 0.005646
+[2017.04.28-14.34.37:499][391]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.991
+[2017.04.28-14.35.15:319][193]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-14.35.15:336][193]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.28-14.35.15:336][193]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.28-14.35.15:555][193]LogPlayLevel: PlayLevel: Blueprint regeneration took 218 ms (1 blueprints)
+[2017.04.28-14.35.15:555][193]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 4:35:15 PM)
+[2017.04.28-14.35.15:555][193]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-14.35.15:595][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039288s)
+[2017.04.28-14.35.15:595][193]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-14.35.15:596][193]LogPlayLevel: PIE: World Init took: (0.001015s)
+[2017.04.28-14.35.15:596][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.040588s)
+[2017.04.28-14.35.15:620][193]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-14.35.15:637][193]LogInit: FAudioDevice initialized.
+[2017.04.28-14.35.15:681][193]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-14.35.15:692][193]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.04.28-15.35.15
+[2017.04.28-14.35.15:695][193]LogWorld: Bringing up level for play took: 0.010179
+[2017.04.28-14.35.15:710][193]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.202
+[2017.04.28-14.35.50:794][286]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-14.35.50:810][286]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.04.28-14.35.50:810][286]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2017.04.28-14.35.50:993][286]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
+[2017.04.28-14.35.50:993][286]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 4:35:50 PM)
+[2017.04.28-14.35.50:994][286]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-14.35.51:022][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028100s)
+[2017.04.28-14.35.51:022][286]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-14.35.51:023][286]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2017.04.28-14.35.51:023][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.029392s)
+[2017.04.28-14.35.51:043][286]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-14.35.51:053][286]LogInit: FAudioDevice initialized.
+[2017.04.28-14.35.51:094][286]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-14.35.51:104][286]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.04.28-15.35.51
+[2017.04.28-14.35.51:104][286]LogWorld: Bringing up level for play took: 0.005390
+[2017.04.28-14.35.51:111][286]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.603
+[2017.04.28-14.37.06:006][512]LogSavePackage: Save=459.66ms
+[2017.04.28-14.37.06:006][512]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMapAD79962942779B0538F7309B280D4A1E.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-14.37.06:010][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-14.37.06:853][512]LogSavePackage: Save=799.51ms
+[2017.04.28-14.37.06:853][512]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData0183FED14537EF010AEDA384943A6411.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-14.37.06:857][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-14.37.08:189][647]BlueprintLog: New page: Compile HUD
+[2017.04.28-14.37.08:850][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.04.28-14.37.08:907][690]LogSavePackage: Save=51.85ms
+[2017.04.28-14.37.08:907][690]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/HUD4F7D867446893A25544024AEE45EC82B.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset'
+[2017.04.28-14.37.08:910][690]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset
+[2017.04.28-14.37.13:858][164]LogScript:Warning: Accessed None trying to read property ControllerReference
+	VehicleBlueprint_C /Engine/Transient.World_2:PersistentLevel.VehicleBlueprint_C_1
+	Function /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint_C:ExecuteUbergraph_VehicleBlueprint:073C
+[2017.04.28-14.37.13:882][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.28-14.45.26:797][983]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-14.45.27:248][983]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-14.45.27:813][ 14]LogSavePackage: Save=111.43ms
+[2017.04.28-14.45.27:813][ 14]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController4C6DB945499109330A1233BD56639064.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-14.45.27:816][ 14]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-14.48.31:220][ 65]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.046
+[2017.04.28-14.48.31:223][ 65]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.04.28-14.48.31:223][ 65]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.04.28-14.48.31:325][ 65]LogSavePackage: Save=93.97ms
+[2017.04.28-14.48.31:325][ 65]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/HUD_Auto21BD7FC094D0E27FCD27EE4BE15D4E242.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset'
+[2017.04.28-14.48.31:327][ 65]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset
+[2017.04.28-14.48.31:327][ 65]LogFileHelpers: Auto-saving content packages took 0.106
+[2017.04.28-14.48.44:889][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.04.28-14.48.44:955][314]LogSavePackage: Save=60.17ms
+[2017.04.28-14.48.44:955][314]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/HUD0FAE3A724938AB19189C3E8E932C3E08.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset'
+[2017.04.28-14.48.44:959][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset
+[2017.04.28-14.49.18:402][644]LogEditorTransaction: Undo Move Widget
+[2017.04.28-14.59.27:773][892]BlueprintLog: New page: Compile HUD
+[2017.04.28-14.59.28:910][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.04.28-14.59.28:996][930]LogSavePackage: Save=76.52ms
+[2017.04.28-14.59.28:996][930]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/HUD0FAAA23240E23F2DAB8D09A32F31408C.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset'
+[2017.04.28-14.59.28:999][930]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/UI/HUD.uasset
+[2017.04.28-15.00.50:878][104]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-15.00.51:024][104]LogBlueprint:Error: [Compiler myPlayerController] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.28-15.00.51:747][104]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-15.00.51:747][104]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.28-15.00.51:747][104]LogBlueprint:Warning: [Compiler myPlayerController] Warning [4644.08] Compile of myPlayerController failed. 1 Fatal Issue(s) 0 Warning(s) [in 869 ms] (/Game/Blueprints/myPlayerController.myPlayerController)
+[2017.04.28-15.00.52:625][125]LogSavePackage: Save=126.47ms
+[2017.04.28-15.00.52:625][125]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController5E5297FA41D86846484CBC8DCF639B7C.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.00.52:629][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.01.32:297][426]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-15.01.33:008][426]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-15.01.34:013][454]LogSavePackage: Save=136.14ms
+[2017.04.28-15.01.34:013][454]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerControllerF76715404094C4BA09B19CA8B9DB0B5D.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.01.34:019][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.03.59:104][966]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-15.03.59:834][966]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-15.04.00:535][987]LogSavePackage: Save=134.68ms
+[2017.04.28-15.04.00:535][987]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController587E71DB4C147A4120E762957F9F9880.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.04.00:540][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.04.55:730][644]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-15.04.56:437][644]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-15.04.57:136][665]LogSavePackage: Save=135.73ms
+[2017.04.28-15.04.57:137][665]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController7CB4B819423934FFA916EF8FD44B34BA.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.04.57:141][665]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.06.37:757][691]LogSavePackage: Save=143.65ms
+[2017.04.28-15.06.37:757][691]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController8C7AFF754EE3D9F6F29C888BE2CDEE7D.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.06.37:760][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.19.05:152][930]BlueprintLog: New page: Compile myPlayerController
+[2017.04.28-15.19.06:109][930]BlueprintEditorCompileResults: Info 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.04.28-15.19.06:831][951]LogSavePackage: Save=145.93ms
+[2017.04.28-15.19.06:831][951]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/myPlayerController492DA54441AAF9CB8334E29F7F4D3CC9.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset'
+[2017.04.28-15.19.06:834][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/myPlayerController.uasset
+[2017.04.28-15.19.45:790][845]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2017.04.28-15.20.04:797][ 92]LogCascade: Quitting Cascade. FXSystem=0x00000244CE0F8360
+[2017.04.28-15.21.02:175][898]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.047
+[2017.04.28-15.21.02:178][898]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/P_Fire2] ([1] browsable assets)...
+[2017.04.28-15.21.02:193][898]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/Particles/P_Fire2.P_Fire2]
+[2017.04.28-15.21.02:193][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/P_Fire2]
+[2017.04.28-15.21.02:275][898]LogSavePackage: Save=80.11ms
+[2017.04.28-15.21.02:275][898]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/P_Fire2_Auto3676F52D84EE18D647CD07FB8517B588C.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/StarterContent/Particles/P_Fire2_Auto3.uasset'
+[2017.04.28-15.21.02:277][898]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Autosaves/Game/StarterContent/Particles/P_Fire2_Auto3.uasset
+[2017.04.28-15.21.02:277][898]LogFileHelpers: Auto-saving content packages took 0.101
+[2017.04.28-15.25.41:611][821]LogParticles:Warning: MaxCount =  567 for Emitter ParticleSpriteEmitter_2 (/Game/StarterContent/Particles/P_Fire2.P_Fire2)
+[2017.04.28-15.29.03:898][958]LogSavePackage: Save=30.18ms
+[2017.04.28-15.29.03:898][958]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/P_Fire2AC76A2DD4230D6E6608F90836D7671FB.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/StarterContent/Particles/P_Fire2.uasset'
+[2017.04.28-15.29.03:902][958]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/StarterContent/Particles/P_Fire2.uasset
+[2017.04.28-15.29.08:760][112]LogCascade: Quitting Cascade. FXSystem=0x000002452AC57EC0
+[2017.04.28-15.29.51:527][903]LogCascade: Quitting Cascade. FXSystem=0x00000244990FCE00
+[2017.04.28-15.29.54:341][ 35]LogCascade: Quitting Cascade. FXSystem=0x0000024497BD7600
+[2017.04.28-15.30.04:605][621]LogCascade: Quitting Cascade. FXSystem=0x0000024525D09E40
+[2017.04.28-15.31.10:753][145]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.31.12:961][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.31.13:309][171]LogSavePackage: Save=31.29ms
+[2017.04.28-15.31.13:309][171]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/CheckpointCB7CF34841C8B5AA3B596C94F6D59524.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.31.13:313][171]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.31.16:329][270]LogSavePackage: Save=604.54ms
+[2017.04.28-15.31.16:329][270]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap5EA475AA49438F66513E26A2A97A11D8.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.31.16:334][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.31.19:795][270]LogSavePackage: Save=1005.38ms
+[2017.04.28-15.31.19:795][270]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData28AC2D2643A086A627C279AFA1AEEE84.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.31.19:804][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.32.22:204][967]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.32.23:648][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.32.23:687][967]LogSavePackage: Save=31.74ms
+[2017.04.28-15.32.23:687][967]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint62E617E640E2E3D06ED253BE4BBDE4D9.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.32.23:689][967]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.32.23:915][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.32.23:950][968]LogSavePackage: Save=28.54ms
+[2017.04.28-15.32.23:950][968]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint6530B66A4BC9386E6E6D0489523FE513.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.32.23:951][968]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.32.41:791][537]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.32.43:531][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.32.43:562][547]LogSavePackage: Save=25.64ms
+[2017.04.28-15.32.43:562][547]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint8ED5312D4CE5F706576120BEE30F8F31.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.32.43:565][547]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.32.43:700][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.32.43:730][552]LogSavePackage: Save=25.03ms
+[2017.04.28-15.32.43:730][552]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/CheckpointB770CA0E4709DC35332B4C9B4CD30AE2.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.32.43:731][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.32.47:236][708]LogSavePackage: Save=590.37ms
+[2017.04.28-15.32.47:237][708]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMapA356497148009AFF089EA0AC038D1D3F.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.32.47:295][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.32.48:217][708]LogSavePackage: Save=880.17ms
+[2017.04.28-15.32.48:217][708]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData3D92E85C469C5704E78803BB9E9E81C4.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.32.48:250][708]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.33.05:259][585]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-15.33.05:278][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-15.33.05:278][585]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 5:33:05 PM)
+[2017.04.28-15.33.05:278][585]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-15.33.06:172][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.893976s)
+[2017.04.28-15.33.06:173][585]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-15.33.06:174][585]LogPlayLevel: PIE: World Init took: (0.001772s)
+[2017.04.28-15.33.06:174][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.896220s)
+[2017.04.28-15.33.06:209][585]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-15.33.06:225][585]LogInit: FAudioDevice initialized.
+[2017.04.28-15.33.06:273][585]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-15.33.06:291][585]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.04.28-16.33.06
+[2017.04.28-15.33.06:292][585]LogWorld: Bringing up level for play took: 0.010557
+[2017.04.28-15.33.06:362][585]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 1.854
+[2017.04.28-15.33.29:178][904]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.33.30:740][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.33.30:775][923]LogSavePackage: Save=21.08ms
+[2017.04.28-15.33.30:775][923]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint8DD9DCFA46690142CAD1E8853FC99719.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.33.30:778][923]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.33.31:813][985]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-15.33.31:830][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-15.33.31:830][985]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 5:33:31 PM)
+[2017.04.28-15.33.31:830][985]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-15.33.31:862][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032388s)
+[2017.04.28-15.33.31:864][985]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-15.33.31:864][985]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2017.04.28-15.33.31:864][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.033851s)
+[2017.04.28-15.33.31:884][985]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-15.33.31:896][985]LogInit: FAudioDevice initialized.
+[2017.04.28-15.33.31:936][985]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-15.33.31:947][985]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.04.28-16.33.31
+[2017.04.28-15.33.31:947][985]LogWorld: Bringing up level for play took: 0.006332
+[2017.04.28-15.33.31:960][985]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.548
+[2017.04.28-15.34.00:814][640]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.04.28-15.34.00:829][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.28-15.34.00:829][640]PIE: New page: PIE session: VehicleAdvExampleMap (Apr 28, 2017, 5:34:00 PM)
+[2017.04.28-15.34.00:830][640]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.04.28-15.34.00:861][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031260s)
+[2017.04.28-15.34.00:862][640]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.04.28-15.34.00:862][640]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.04.28-15.34.00:862][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.032593s)
+[2017.04.28-15.34.00:882][640]LogInit: XAudio2 using 'Altifalantes (Conexant SmartAudio HD)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.28-15.34.00:893][640]LogInit: FAudioDevice initialized.
+[2017.04.28-15.34.00:930][640]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.04.28-15.34.00:944][640]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.04.28-16.34.00
+[2017.04.28-15.34.00:945][640]LogWorld: Bringing up level for play took: 0.008957
+[2017.04.28-15.34.00:955][640]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.447
+[2017.04.28-15.35.25:740][125]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.35.27:519][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.35.27:548][158]LogSavePackage: Save=21.62ms
+[2017.04.28-15.35.27:548][158]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint598ACB314E05CE4E2735BA8AB3DF3089.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.35.27:551][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.35.43:605][ 67]LogSavePackage: Save=469.71ms
+[2017.04.28-15.35.43:605][ 67]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap05F109684B014A289CE583A2256CFA75.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.35.43:609][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.35.44:460][ 67]LogSavePackage: Save=801.73ms
+[2017.04.28-15.35.44:460][ 67]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData5522DA0A43F60316189818B3A9889888.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.35.44:464][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.36.17:359][753]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.36.18:760][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.36.18:797][753]LogSavePackage: Save=29.06ms
+[2017.04.28-15.36.18:797][753]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint329A3C1644A3DF3EB3B827AA654CB289.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.36.18:813][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.36.19:810][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.36.19:844][799]LogSavePackage: Save=28.27ms
+[2017.04.28-15.36.19:844][799]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint73C6F91A44B1CAB3B176E694B2608D49.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.36.19:845][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.36.36:181][263]LogCascade: Quitting Cascade. FXSystem=0x000002453AE268E0
+[2017.04.28-15.37.10:972][520]BlueprintLog: New page: Compile Tracker
+[2017.04.28-15.37.11:814][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.04.28-15.37.11:916][550]LogSavePackage: Save=76.93ms
+[2017.04.28-15.37.11:916][550]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/TrackerCE23651E40250C512A107D8F192B64AE.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Tracker.uasset'
+[2017.04.28-15.37.11:919][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Tracker.uasset
+[2017.04.28-15.37.14:492][655]LogSavePackage: Save=606.37ms
+[2017.04.28-15.37.14:492][655]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap0D7E800C4D7A3FC87DDC9E93F619F915.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.37.14:496][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.37.15:430][655]LogSavePackage: Save=882.81ms
+[2017.04.28-15.37.15:430][655]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData5B3F44524AC67903100FD0959A5BC0CD.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.37.15:434][655]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.37.30:050][218]BlueprintLog: New page: Compile Checkpoint
+[2017.04.28-15.37.31:931][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.04.28-15.37.31:962][242]LogSavePackage: Save=26.40ms
+[2017.04.28-15.37.31:962][242]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Checkpoint1CE78FA14FCA0A9C712C80B108218F4D.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset'
+[2017.04.28-15.37.31:966][242]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Blueprints/Checkpoint.uasset
+[2017.04.28-15.37.34:191][336]LogSavePackage: Save=551.69ms
+[2017.04.28-15.37.34:191][336]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMapDF476BA947C97AC55AAD1697D0268320.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.37.34:195][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.37.35:160][336]LogSavePackage: Save=933.57ms
+[2017.04.28-15.37.35:160][336]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData21F944A546FB33643FC14088C44BDE2B.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.37.35:164][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.38.34:852][819]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.04.28-15.38.37:048][940]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.04.28-15.38.48:881][512]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint3)
+[2017.04.28-15.39.07:288][405]LogSavePackage: Save=604.22ms
+[2017.04.28-15.39.07:289][405]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMapAF03993D4B2D36B0D6A0D9A3E70DCAC1.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.39.07:301][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.39.08:216][405]LogSavePackage: Save=872.64ms
+[2017.04.28-15.39.08:216][405]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData44A6B97945D82EB1960CB29719C78951.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.39.08:220][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.40.43:780][341]LogSavePackage: Save=535.63ms
+[2017.04.28-15.40.43:780][341]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap46894A2A46F467955D23FD80038444F3.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.40.43:809][341]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.40.44:698][341]LogSavePackage: Save=851.05ms
+[2017.04.28-15.40.44:698][341]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltDataD4967AEA48DBC633448B0EB9F37C8E41.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.40.44:703][341]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.40.48:295][510]LogSavePackage: Save=572.16ms
+[2017.04.28-15.40.48:295][510]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap5474362646F9F1BB31A7A1A3995FEA99.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.04.28-15.40.48:310][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.04.28-15.40.49:215][510]LogSavePackage: Save=867.08ms
+[2017.04.28-15.40.49:215][510]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/VehicleAdvExampleMap_BuiltData67D455984320798803D47ABBA0F316C9.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.04.28-15.40.49:221][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.04.28-15.40.54:376][650]LogSavePackage: Save=9.98ms
+[2017.04.28-15.40.54:376][650]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Level1D8A7BC9A428012E365C0538EB0F8AB1E.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Maps/Level1.umap'
+[2017.04.28-15.40.54:380][650]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Maps/Level1.umap
+[2017.04.28-15.40.54:380][650]LogFileHelpers: Saving map 'Level1' took 0.388
+[2017.04.28-15.40.54:466][650]Cmd: MAP LOAD FILE="../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.28-15.40.54:466][650]LightingResults: New page: Lighting Build
+[2017.04.28-15.40.54:487][650]LoadErrors: New page: Loading map: Level1.umap
+[2017.04.28-15.40.54:500][650]MapCheck: New page: Map Check
+[2017.04.28-15.40.54:500][650]LightingResults: New page: Lighting Build
+[2017.04.28-15.40.54:814][650]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.28-15.40.54:832][650]LogAIModule: Creating AISystem for world Level1
+[2017.04.28-15.40.54:882][650]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.28-15.40.54:966][650]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.015ms to complete.
+[2017.04.28-15.40.54:968][650]LogFileHelpers: Loading map 'Level1' took 0.579
+[2017.04.28-15.41.11:930][244]Cmd: DELETE
+[2017.04.28-15.41.11:930][244]Cmd: ACTOR DELETE
+[2017.04.28-15.41.12:115][244]LogEditorActor: Deleted Actor: Actor
+[2017.04.28-15.41.12:138][244]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.04.28-15.41.22:749][484]LogActorFactory: Actor Factory created Plane
+[2017.04.28-15.41.24:098][559]LogActorFactory: Actor Factory created Plane
+[2017.04.28-15.41.43:883][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.04.28-15.42.05:206][816]LogSavePackage: Save=14.14ms
+[2017.04.28-15.42.05:206][816]LogSavePackage: Moving '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Level19C62AF584ED667CA7A2F3B816B0B520F.tmp' to '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Maps/Level1.umap'
+[2017.04.28-15.42.05:209][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Maps/Level1.umap
+[2017.04.28-15.42.09:174][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.28-15.42.09:253][ 34]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.28-15.42.09:855][ 35]Cmd: QUIT_EDITOR
+[2017.04.28-15.42.11:035][ 35]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.28-15.42.11:159][ 35]LogExit: Preparing to exit.
+[2017.04.28-15.42.12:335][ 35]LogDirectoryWatcher: A directory notification for 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/' was aborted.
+[2017.04.28-15.42.12:651][ 35]LogExit: Editor shut down
+[2017.04.28-15.42.12:654][ 35]LogExit: Transaction tracking system shut down
+[2017.04.28-15.42.14:204][ 35]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.28-15.42.14:204][ 35]LogExit: Object subsystem successfully closed.
+[2017.04.28-15.42.14:396][ 35]LogD3D11RHI: Shutdown
+[2017.04.28-15.42.14:396][ 35]LogD3D11RHI: CleanupD3DDevice
+[2017.04.28-15.42.14:742][ 35]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module DistCurveEditor (512)
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module Cascade (510)
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module SequencerWidgets (508)
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.04.28-15.42.15:772][ 35]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.04.28-15.42.15:791][ 35]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (500)
+[2017.04.28-15.42.15:800][ 35]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.04.28-15.42.15:800][ 35]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.04.28-15.42.15:800][ 35]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.04.28-15.42.15:805][ 35]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.04.28-15.42.15:822][ 35]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.04.28-15.42.15:822][ 35]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.04.28-15.42.15:823][ 35]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.04.28-15.42.15:835][ 35]LogDirectoryWatcher: A directory notification for 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Collections/' was aborted.
+[2017.04.28-15.42.15:835][ 35]LogDirectoryWatcher: A directory notification for 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/Developers/nelso/Collections/' was aborted.
+[2017.04.28-15.42.15:835][ 35]LogDirectoryWatcher: A directory notification for 'C:/Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Saved/Collections/' was aborted.
+[2017.04.28-15.42.15:836][ 35]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.04.28-15.42.15:845][ 35]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.04.28-15.42.15:845][ 35]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.04.28-15.42.15:855][ 35]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.04.28-15.42.15:864][ 35]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.04.28-15.42.15:897][ 35]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.04.28-15.42.15:906][ 35]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.04.28-15.42.15:920][ 35]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.04.28-15.42.15:935][ 35]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.04.28-15.42.15:936][ 35]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.04.28-15.42.15:946][ 35]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.04.28-15.42.15:967][ 35]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.04.28-15.42.15:967][ 35]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.04.28-15.42.15:967][ 35]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.04.28-15.42.15:968][ 35]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.04.28-15.42.15:968][ 35]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.04.28-15.42.15:980][ 35]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.04.28-15.42.15:997][ 35]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.04.28-15.42.16:011][ 35]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.04.28-15.42.16:011][ 35]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.04.28-15.42.16:012][ 35]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.04.28-15.42.16:013][ 35]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.04.28-15.42.16:021][ 35]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.04.28-15.42.17:031][ 35]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.04.28-15.42.17:032][ 35]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.04.28-15.42.17:032][ 35]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.04.28-15.42.17:048][ 35]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.04.28-15.42.17:092][ 35]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.04.28-15.42.17:100][ 35]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.04.28-15.42.17:112][ 35]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.04.28-15.42.17:123][ 35]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.04.28-15.42.17:123][ 35]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.04.28-15.42.17:129][ 35]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.04.28-15.42.17:155][ 35]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.04.28-15.42.17:162][ 35]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.04.28-15.42.17:187][ 35]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.04.28-15.42.17:234][ 35]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.04.28-15.42.17:234][ 35]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.04.28-15.42.17:247][ 35]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.04.28-15.42.17:262][ 35]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.04.28-15.42.17:262][ 35]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.04.28-15.42.17:263][ 35]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.04.28-15.42.17:263][ 35]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.04.28-15.42.17:316][ 35]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.04.28-15.42.17:333][ 35]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.04.28-15.42.17:356][ 35]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.04.28-15.42.17:366][ 35]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.04.28-15.42.17:389][ 35]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.04.28-15.42.17:433][ 35]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.04.28-15.42.17:448][ 35]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.04.28-15.42.17:462][ 35]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.04.28-15.42.17:471][ 35]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.04.28-15.42.17:471][ 35]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.04.28-15.42.17:487][ 35]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.04.28-15.42.17:487][ 35]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.04.28-15.42.17:514][ 35]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.04.28-15.42.17:514][ 35]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.04.28-15.42.17:549][ 35]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.04.28-15.42.17:550][ 35]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.04.28-15.42.17:551][ 35]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.04.28-15.42.17:574][ 35]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.04.28-15.42.17:598][ 35]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.04.28-15.42.17:624][ 35]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.04.28-15.42.17:630][ 35]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.04.28-15.42.17:638][ 35]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.04.28-15.42.17:639][ 35]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.04.28-15.42.17:649][ 35]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.04.28-15.42.17:649][ 35]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.04.28-15.42.17:790][ 35]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.04.28-15.42.17:817][ 35]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.04.28-15.42.17:817][ 35]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.04.28-15.42.17:817][ 35]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.04.28-15.42.17:817][ 35]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.04.28-15.42.17:847][ 35]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.04.28-15.42.17:847][ 35]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.04.28-15.42.17:847][ 35]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.04.28-15.42.17:848][ 35]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.04.28-15.42.17:848][ 35]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.04.28-15.42.17:860][ 35]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.04.28-15.42.17:860][ 35]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.04.28-15.42.17:884][ 35]LogModuleManager: Shutting down and abandoning module RawInput (280)
+[2017.04.28-15.42.17:884][ 35]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.04.28-15.42.17:884][ 35]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.04.28-15.42.17:894][ 35]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.04.28-15.42.17:895][ 35]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.04.28-15.42.17:907][ 35]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.04.28-15.42.17:907][ 35]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.04.28-15.42.17:907][ 35]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.04.28-15.42.17:908][ 35]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.04.28-15.42.17:908][ 35]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.04.28-15.42.17:946][ 35]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.04.28-15.42.17:972][ 35]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.04.28-15.42.17:972][ 35]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.04.28-15.42.17:972][ 35]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.04.28-15.42.17:972][ 35]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.04.28-15.42.17:972][ 35]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.04.28-15.42.17:980][ 35]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.04.28-15.42.17:997][ 35]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.04.28-15.42.18:005][ 35]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.04.28-15.42.18:022][ 35]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.04.28-15.42.18:022][ 35]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.04.28-15.42.18:022][ 35]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.04.28-15.42.18:022][ 35]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.04.28-15.42.18:035][ 35]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.04.28-15.42.18:050][ 35]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.04.28-15.42.18:078][ 35]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.04.28-15.42.18:112][ 35]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.04.28-15.42.18:112][ 35]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.04.28-15.42.18:213][ 35]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.04.28-15.42.18:215][ 35]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.04.28-15.42.18:227][ 35]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.04.28-15.42.18:228][ 35]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.04.28-15.42.18:228][ 35]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.04.28-15.42.18:328][ 35]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.04.28-15.42.18:438][ 35]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.04.28-15.42.18:456][ 35]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.04.28-15.42.18:470][ 35]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.04.28-15.42.18:470][ 35]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.04.28-15.42.18:470][ 35]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.04.28-15.42.18:482][ 35]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.04.28-15.42.18:497][ 35]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.04.28-15.42.18:508][ 35]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.04.28-15.42.18:508][ 35]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.04.28-15.42.18:511][ 35]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.04.28-15.42.18:520][ 35]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.04.28-15.42.18:520][ 35]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.04.28-15.42.18:520][ 35]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.04.28-15.42.18:543][ 35]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.04.28-15.42.18:543][ 35]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.04.28-15.42.18:550][ 35]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.04.28-15.42.18:556][ 35]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.04.28-15.42.18:556][ 35]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.04.28-15.42.18:556][ 35]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.04.28-15.42.18:569][ 35]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.04.28-15.42.18:569][ 35]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.04.28-15.42.18:569][ 35]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.04.28-15.42.18:603][ 35]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.04.28-15.42.18:603][ 35]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.04.28-15.42.18:634][ 35]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.04.28-15.42.18:646][ 35]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.04.28-15.42.18:646][ 35]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.04.28-15.42.18:646][ 35]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.04.28-15.42.18:646][ 35]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.04.28-15.42.18:646][ 35]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.04.28-15.42.18:984][ 35]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.04.28-15.42.18:984][ 35]LogDirectoryWatcher: A directory notification for '../../../../../../Users/nelso/OneDrive/Documents/Unreal Projects/Projecto3Dcars/Content/' was aborted.
+[2017.04.28-15.42.18:984][ 35]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.04.28-15.42.18:995][ 35]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.04.28-15.42.19:002][ 35]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.04.28-15.42.19:002][ 35]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.04.28-15.42.19:002][ 35]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.04.28-15.42.19:020][ 35]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.04.28-15.42.19:033][ 35]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.04.28-15.42.19:033][ 35]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.04.28-15.42.19:050][ 35]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.04.28-15.42.19:062][ 35]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.04.28-15.42.19:133][ 35]LogDerivedDataCache: Shutdown
+[2017.04.28-15.42.19:133][ 35]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.04.28-15.42.19:133][ 35]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.04.28-15.42.19:137][ 35]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.04.28-15.42.19:150][ 35]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.04.28-15.42.19:155][ 35]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.04.28-15.42.19:163][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.04.28-15.42.19:163][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.04.28-15.42.19:163][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.04.28-15.42.19:163][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.04.28-15.42.19:185][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.04.28-15.42.19:185][ 35]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.04.28-15.42.19:185][ 35]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.04.28-15.42.19:185][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.04.28-15.42.19:198][ 35]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.04.28-15.42.19:199][ 35]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.04.28-15.42.19:199][ 35]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.04.28-15.42.19:212][ 35]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.04.28-15.42.19:213][ 35]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.04.28-15.42.19:213][ 35]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.04.28-15.42.19:213][ 35]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.04.28-15.42.19:213][ 35]LogOnline:Display: Unloading online subsystem: NULL
+[2017.04.28-15.42.19:231][ 35]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.04.28-15.42.19:248][ 35]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.04.28-15.42.19:252][ 35]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.04.28-15.42.19:252][ 35]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7608B922-467B-68ED-F03B-DABA85B6C6A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=1dae0a3042bd3e231ef317884ef14df6%7C037fdcebcd72403e895e7893d1ff0e5c%7C41472952-92bc-4579-84a7-815f00ef22b8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.04.28-15.42.19:269][ 35]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.04.28-15.42.19:284][ 35]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.04.28-15.42.19:300][ 35]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.04.28-15.42.19:300][ 35]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.04.28-15.42.19:300][ 35]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.04.28-15.42.19:300][ 35]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.04.28-15.42.19:370][ 35]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.04.28-15.42.19:375][ 35]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.04.28-15.42.19:375][ 35]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.04.28-15.42.19:384][ 35]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.04.28-15.42.19:384][ 35]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.04.28-15.42.19:384][ 35]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.04.28-15.42.19:384][ 35]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.04.28-15.42.19:392][ 35]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.04.28-15.42.19:398][ 35]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.04.28-15.42.19:409][ 35]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.04.28-15.42.19:433][ 35]LogExit: Exiting.
+[2017.04.28-15.42.19:464][ 35]Log file closed, 04/28/17 16:42:19
